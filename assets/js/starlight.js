@@ -18,7 +18,7 @@ var user_configuration={
 	fade_duration:"0.5s", //how long the star fades for
 	colors:["hsla(62, 50%,50%, 0.5)", "rgba(255,255,255,0.5)","hsla(180, 72%, 52%, 0.5)"], //The variety of colors of the stars. Can be any CSS complient color (eg. HEX, rgba, hsl)
 	frequency:100, //how often a new wave of stars pop-out (in milliseconds. Bigger==longer)
-	density: 1,//how many stars pop out per wave
+	density: 5,//how many stars pop out per wave
 	keep_lit: false, //whether the stars disappear after they are created
 	rotation: true, //whether the stars rotate through out their expansion
 	coverage:1, //how much of the element's area the stars will show up in (0-1)
